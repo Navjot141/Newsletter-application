@@ -32,7 +32,7 @@ app.post('/', function(req,res){
 
     const options ={
         method: 'POST',
-        auth: "navjot:6698969f33e88de71f545dc6ef167ef5-us21"
+        auth: "navjot:-us21"
     }
 
     const request = https.request(url, options, function(response){
